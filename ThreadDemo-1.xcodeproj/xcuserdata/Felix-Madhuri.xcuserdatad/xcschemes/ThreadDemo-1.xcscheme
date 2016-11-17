@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5A9740FC1DDC1A5600AD439F"
+               BuildableName = "ThreadDemo-1.app"
+               BlueprintName = "ThreadDemo-1"
+               ReferencedContainer = "container:ThreadDemo-1.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5A9741151DDC1A5700AD439F"
+               BuildableName = "ThreadDemo-1Tests.xctest"
+               BlueprintName = "ThreadDemo-1Tests"
+               ReferencedContainer = "container:ThreadDemo-1.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5A9741201DDC1A5700AD439F"
+               BuildableName = "ThreadDemo-1UITests.xctest"
+               BlueprintName = "ThreadDemo-1UITests"
+               ReferencedContainer = "container:ThreadDemo-1.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5A9740FC1DDC1A5600AD439F"
+            BuildableName = "ThreadDemo-1.app"
+            BlueprintName = "ThreadDemo-1"
+            ReferencedContainer = "container:ThreadDemo-1.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5A9740FC1DDC1A5600AD439F"
+            BuildableName = "ThreadDemo-1.app"
+            BlueprintName = "ThreadDemo-1"
+            ReferencedContainer = "container:ThreadDemo-1.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5A9740FC1DDC1A5600AD439F"
+            BuildableName = "ThreadDemo-1.app"
+            BlueprintName = "ThreadDemo-1"
+            ReferencedContainer = "container:ThreadDemo-1.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
